@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "GoalDigger",
+  "version": "1.0",
+  "description": "Your fun productivity buddy that helps you organize tasks and dig goals.",
+  "oauth2": {
+    "client_id": "518559809571-rr3aft7bo8m29oa7ha36bkpr48bgb8m5.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/calendar.events"]
+  },
+  "permissions": [
+    "identity",
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  }
+}

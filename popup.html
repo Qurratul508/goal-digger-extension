@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GoalDigger</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+      
+    <div class="branding">
+        <img src="icons/icon128.png" alt="GoalDigger Logo" class="logo" />
+        <a href="#" class="visit-site" id="visit-site-btn">
+            🌐 Visit Website
+        </a>
+          
+      </div>
+      
+      
+  <div class="container">
+    <h1>What's the gold today?</h1>
+    <blockquote id="quote" class="motivational-quote">Loading motivation... ✨</blockquote>
+
+    <!-- 📅 Google Calendar Auth Button -->
+    <button id="google-auth">📅 Connect Google Calendar</button>
+
+    <!-- Task Input Form -->
+    <input id="task" type="text" placeholder="Task name..." />
+    <input id="date" type="datetime-local" />
+    <select id="reminder">
+      <option value="0">At due time</option>
+      <option value="5">5 min before</option>
+      <option value="30">30 min before</option>
+      <option value="60">1 hour before</option>
+    </select>
+    <button id="submit">Dig it!</button>
+
+    <!-- Task List Section -->
+    <h2>⛏️ Your Tasks</h2>
+    <ul id="task-list"></ul>
+    <p id="empty-msg" style="font-size: 14px; color: #888;"></p>
+  </div>
+
+  <!-- Scripts -->
+  <script src="popup.js"></script>
+  <script src="libs/confetti.browser.min.js"></script>
+  <audio id="doneSound" src="sounds/done.mp3" preload="auto"></audio>
+  
+  <footer class="footer">
+    Made with 💜 by <strong>Sanjida</strong>
+  </footer>
+  
+</body>
+</html>
