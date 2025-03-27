@@ -3,7 +3,7 @@
 GoalDigger is your minimalist, delightful accountability buddy built as a Chrome Extension.  
 It connects to your Google Calendar, adds tasks in 10 seconds, and reminds you to *dig goals, not scroll*. 🧠✨
 
-![Screenshot](demo/screenshot.png)
+![Screenshot](icons/demo screenshot.png)
 
 ---
 
