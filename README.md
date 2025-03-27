@@ -22,6 +22,7 @@ It connects to your Google Calendar, adds tasks in 10 seconds, and reminds you t
 
 ## 👀 Demo
 
+Visit https://youtu.be/gGjn3rkEWk8 to see a demo of the extension.
 > [Try it here](https://bit.ly/Goal-Digger-productivity)  
 *(Access by request – email sanjida@berkeley.edu)*
 
